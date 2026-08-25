@@ -40,6 +40,7 @@ function App() {
         value={weatherSearch}
         onChange={toSearch}
       />
+      <button>click me</button>
       {/* 2. Check if data exists before rendering properties */}
       {weatherData ? (
         <div>
